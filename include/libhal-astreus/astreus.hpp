@@ -14,7 +14,7 @@
 
 #pragma once
 
-namespace hal:: {
+namespace hal::{
 class _replace_me
 {};
 }  // namespace hal::
