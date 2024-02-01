@@ -1,4 +1,4 @@
-# Copyright 2024 Khalil Estell
+# Copyright 2023 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,25 +11,38 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 cmake_minimum_required(VERSION 3.15)
 
-project(libhal- LANGUAGES CXX)
+project(telemetry-recorder VERSION 0.0.1 LANGUAGES CXX)
 
-libhal_test_and_make_library(
-  LIBRARY_NAME libhal-
 
-  SOURCES
-  src/.cpp
+find_package(libhal REQUIRED CONFIG)
+find_package(libhal-util REQUIRED CONFIG)
+find_package(libhal-icm REQUIRED CONFIG)
+find_package(libhal-neo REQUIRED CONFIG)
+find_package(libhal-mpl REQUIRED CONFIG)
+find_package(libhal-xbee REQUIRED CONFIG)
 
-  TEST_SOURCES
-  tests/.test.cpp
-  tests/main.test.cpp
 
-  PACKAGES
-  libhal
-  libhal-util
+add_library(telemetry-recorder src/telemetry-recorder.cpp)
 
-  LINK_LIBRARIES
+target_include_directories(telemetry-recorder PUBLIC include
+)
+
+target_compile_features(telemetry-recorder PRIVATE cxx_std_20)
+target_compile_options(telemetry-recorder PRIVATE -Wall -Wextra)
+target_link_libraries(telemetry-recorder PRIVATE
   libhal::libhal
   libhal::util
+  libhal::icm
+  libhal::neo
+  libhal::mpl
+  libhal::xbee
 )
+
+if(NOT BUILD_TESTING STREQUAL OFF)
+  add_subdirectory(tests)
+endif()
+
+install(TARGETS telemetry-recorder)

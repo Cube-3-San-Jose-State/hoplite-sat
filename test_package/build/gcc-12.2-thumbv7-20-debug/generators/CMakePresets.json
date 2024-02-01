@@ -1,0 +1,37 @@
+{
+    "version": 3,
+    "vendor": {
+        "conan": {}
+    },
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 15,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "conan-gcc-12.2-thumbv7-20-debug",
+            "displayName": "'conan-gcc-12.2-thumbv7-20-debug' config",
+            "description": "'conan-gcc-12.2-thumbv7-20-debug' configure using 'Unix Makefiles' generator",
+            "generator": "Unix Makefiles",
+            "cacheVariables": {
+                "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
+                "CMAKE_BUILD_TYPE": "Debug"
+            },
+            "toolchainFile": "/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake",
+            "binaryDir": "/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "conan-gcc-12.2-thumbv7-20-debug",
+            "configurePreset": "conan-gcc-12.2-thumbv7-20-debug"
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "conan-gcc-12.2-thumbv7-20-debug",
+            "configurePreset": "conan-gcc-12.2-thumbv7-20-debug"
+        }
+    ]
+}

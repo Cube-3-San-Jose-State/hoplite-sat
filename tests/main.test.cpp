@@ -1,4 +1,4 @@
-// Copyright 2024 Khalil Estell
+// Copyright 2023 Google LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-namespace hal:: {
-extern void _test();
-}  // namespace hal::
+namespace hal::telemetry_recorder {
+extern void telemetry_recorder_test();
+}  // namespace hal::telemetry_recorder
 
 int main()
 {
-  hal::::_test();
+  hal::telemetry_recorder::telemetry_recorder_test();
 }

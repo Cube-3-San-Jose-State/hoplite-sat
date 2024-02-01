@@ -1,4 +1,4 @@
-# Copyright 2024 Khalil Estell
+# Copyright 2023 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,14 +22,14 @@ import os
 required_conan_version = ">=2.0.6"
 
 
-class libhal__conan(ConanFile):
-    name = "libhal-"
+class telemetry_recorder_conan(ConanFile):
+    name = "telemetry-recorder"
     version = "0.0.1"
     license = "Apache-2.0"
     url = "https://github.com/conan-io/conan-center-index"
-    homepage = "https://github.com/libhal/libhal-"
-    description = ("A collection of drivers for the ")
-    topics = ("", "libhal", "driver")
+    homepage = "https://github.com/libhal/telemetry-recorder"
+    description = ("A collection of drivers for the telemetry-recorder")
+    topics = ("telemetry-recorder", "libhal", "driver")
     settings = "compiler", "build_type", "os", "arch"
     exports_sources = ("include/*", "tests/*", "LICENSE", "CMakeLists.txt",
                        "src/*")
@@ -57,21 +57,39 @@ class libhal__conan(ConanFile):
 
     def build_requirements(self):
         self.tool_requires("cmake/3.27.1")
-        self.tool_requires("libhal-cmake-util/3.0.1")
+        self.tool_requires("libhal-cmake-util/1.0.0")
         self.test_requires("libhal-mock/[^2.0.1]")
         self.test_requires("boost-ext-ut/1.1.9")
 
     def requirements(self):
-        self.requires("libhal/[^2.0.3]", transitive_headers=True)
-        self.requires("libhal-util/[^3.0.1]")
+        self.requires("libhal/2.2.0", transitive_headers=True)
+        self.requires("libhal-util/[^3.0.0]")
+        self.requires("libhal-icm/[^0.0.1]")
+        self.requires("libhal-neo/[^0.0.1]")
+        self.requires("libhal-mpl/[^0.0.1]")
+        self.requires("libhal-xbee/[^0.0.1]")
 
     def layout(self):
         cmake_layout(self)
 
     def build(self):
+        run_test = not self.conf.get("tools.build:skip_test", default=False)
+
         cmake = CMake(self)
-        cmake.configure()
+        if self.settings.os == "Windows":
+            cmake.configure()
+        elif self._bare_metal:
+            cmake.configure(variables={
+                "BUILD_TESTING": "OFF"
+            })
+        else:
+            cmake.configure(variables={"ENABLE_ASAN": True})
+
         cmake.build()
+
+        if run_test and not self._bare_metal:
+            test_folder = os.path.join("tests")
+            self.run(os.path.join(test_folder, "unit_test"))
 
     def package(self):
         copy(self,
@@ -91,5 +109,5 @@ class libhal__conan(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = ["libhal-"]
-        self.cpp_info.set_property("cmake_target_name", "libhal::")
+        self.cpp_info.libs = ["telemetry-recorder"]
+        self.cpp_info.set_property("cmake_target_name", "libhal::telemetry-recorder")

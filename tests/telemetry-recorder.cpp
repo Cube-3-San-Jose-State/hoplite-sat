@@ -13,17 +13,19 @@
 // limitations under the License.
 
 #include <telemetry-recorder/telemetry-recorder.hpp>
-#include <libhal/error.hpp>
 
-int main()
-{
-  // hal::telemetry_recorder::telemetry_recorder;
-  return 0;
-}
+#include <boost/ut.hpp>
 
-namespace boost {
-void throw_exception(std::exception const& e)
+namespace hal::telemetry_recorder {
+void telemetry_recorder_test()
 {
-  hal::halt();
-}
-}  // namespace boost
+  using namespace boost::ut;
+  using namespace std::literals;
+
+  "telemetry_recorder::create()"_test = []() {
+    // Setup
+    // Exercise
+    // Verify
+  };
+};
+}  // namespace hal::telemetry_recorder
