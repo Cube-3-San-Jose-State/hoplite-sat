@@ -14,35 +14,33 @@
 
 cmake_minimum_required(VERSION 3.15)
 
-project(telemetry-recorder VERSION 0.0.1 LANGUAGES CXX)
+project(sat-core VERSION 0.0.1 LANGUAGES CXX)
 
 
 find_package(libhal REQUIRED CONFIG)
 find_package(libhal-util REQUIRED CONFIG)
-find_package(libhal-icm REQUIRED CONFIG)
-find_package(libhal-neo REQUIRED CONFIG)
-find_package(libhal-mpl REQUIRED CONFIG)
-find_package(libhal-xbee REQUIRED CONFIG)
+find_package(telemetry-recorder REQUIRED CONFIG)
+# find_package(libhal-icm REQUIRED CONFIG)
+# find_package(libhal-neo REQUIRED CONFIG)
+# find_package(libhal-mpl REQUIRED CONFIG)
+# find_package(libhal-xbee REQUIRED CONFIG)
 
 
-add_library(telemetry-recorder src/telemetry-recorder.cpp)
+add_library(sat-core src/sat-core.cpp)
 
-target_include_directories(telemetry-recorder PUBLIC include
+target_include_directories(sat-core PUBLIC include
 )
 
-target_compile_features(telemetry-recorder PRIVATE cxx_std_20)
-target_compile_options(telemetry-recorder PRIVATE -Wall -Wextra)
-target_link_libraries(telemetry-recorder PRIVATE
+target_compile_features(sat-core PRIVATE cxx_std_20)
+target_compile_options(sat-core PRIVATE -Wall -Wextra)
+target_link_libraries(sat-core PRIVATE
   libhal::libhal
   libhal::util
-  libhal::icm
-  libhal::neo
-  libhal::mpl
-  libhal::xbee
+  libhal::telemetry-recorder
 )
 
 if(NOT BUILD_TESTING STREQUAL OFF)
   add_subdirectory(tests)
 endif()
 
-install(TARGETS telemetry-recorder)
+install(TARGETS sat-core)

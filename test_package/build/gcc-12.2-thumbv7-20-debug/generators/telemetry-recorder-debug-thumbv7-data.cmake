@@ -13,7 +13,7 @@ set(libhal_FIND_MODE "NO_MODULE")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(telemetry-recorder_PACKAGE_FOLDER_DEBUG "/home/alazca/.conan2/p/b/telem9607f2e73cb30/p")
+set(telemetry-recorder_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/b/telemf3b345fd881f9/p")
 set(telemetry-recorder_BUILD_MODULES_PATHS_DEBUG )
 
 

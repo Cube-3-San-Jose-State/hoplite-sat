@@ -10,7 +10,7 @@ set(libhal_FIND_MODE "NO_MODULE")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(libhal-icm_PACKAGE_FOLDER_DEBUG "/home/alazca/.conan2/p/libhad21ac9408c04f/p")
+set(libhal-icm_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/b/libha948f473678d3c/p")
 set(libhal-icm_BUILD_MODULES_PATHS_DEBUG )
 
 

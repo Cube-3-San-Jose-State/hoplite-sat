@@ -1,4 +1,4 @@
-// Copyright 2024 Khalil Estell
+// Copyright 2023 Google LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,7 +12,31 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "libhal-/.hpp"
+#include "sat-core/sat-core.hpp"
 
-namespace hal:: {
-}  // namespace hal::
+namespace hal::sat_core {
+
+result<sat_core> sat_core::create(hal::serial& p_serial)
+{
+  sat_core new_sat_core(p_serial);
+  return new_sat_core;
+}
+
+hal::result<std::span<hal::byte>> sat_core::recieve_rpi()
+{
+  auto data_recieved = HAL_CHECK(m_rpi_serial->read(m_rpi_buffer)).data;
+  return data_recieved;
+}
+
+hal::status sat_core::transmit_rpi(std::string_view message)
+{
+  hal::write(*m_rpi_serial, message);
+  return hal::success();
+}
+
+}  // namespace hal::sat_core
+
+
+
+
+

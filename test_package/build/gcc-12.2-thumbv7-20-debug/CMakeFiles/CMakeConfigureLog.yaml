@@ -4,51 +4,51 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
       - "CMakeLists.txt:16 (project)"
     message: |
       The target system is: Generic -  - ARM
-      The host system is: Linux - 6.7.0-arch3-1 - x86_64
+      The host system is: Darwin - 23.2.0 - arm64
   -
     kind: "message-v1"
     backtrace:
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:16 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-g++ 
+      Compiler: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ 
       Build flags: -mfloat-abi=hard;-mcpu=cortex-m4;-mfpu=auto;-fno-exceptions;-fno-rtti;-mthumb;-ffunction-sections;-fdata-sections
       Id flags:  
       
       The output was:
       1
-      /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-exit.o): in function `exit':
+      /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x14): undefined reference to `_exit'
-      /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o): in function `_write_r':
-      writer.c:(.text._write_r+0x14): undefined reference to `_write'
-      /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o): in function `_close_r':
+      /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-closer.o): in function `_close_r':
       closer.c:(.text._close_r+0xc): undefined reference to `_close'
-      /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-lseekr.o): in function `_lseek_r':
       lseekr.c:(.text._lseek_r+0x14): undefined reference to `_lseek'
-      /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o): in function `_read_r':
+      /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-readr.o): in function `_read_r':
       readr.c:(.text._read_r+0x14): undefined reference to `_read'
-      /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
       sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x14): undefined reference to `_write'
       collect2: error: ld returned 1 exit status
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:16 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-g++ 
+      Compiler: /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ 
       Build flags: -mfloat-abi=hard;-mcpu=cortex-m4;-mfpu=auto;-fno-exceptions;-fno-rtti;-mthumb;-ffunction-sections;-fdata-sections
       Id flags: -c 
       
@@ -59,173 +59,173 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o
+        /Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:16 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD"
-      binary: "/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD"
+      source: "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz"
+      binary: "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: "--specs=nano.specs --specs=nosys.specs --specs=picolibc.specs -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections"
-      CMAKE_MODULE_PATH: "/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/generators;/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/res"
+      CMAKE_MODULE_PATH: "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/res"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD'
+        Change Dir: '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz'
         
-        Run Build Command(s): /home/alazca/.conan2/p/cmake8e5340c297c76/p/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f355b/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_f355b.dir/build.make CMakeFiles/cmTC_f355b.dir/build
-        make[1]: Entering directory '/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD'
-        Building CXX object CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj
-        /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj -c /home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_97048/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_97048.dir/build.make CMakeFiles/cmTC_97048.dir/build
+        gmake[1]: Entering directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz'
+        Building CXX object CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj
+        /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-g++
+        COLLECT_GCC=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++
         Target: arm-none-eabi
-        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
         Thread model: single
         Supported LTO compression algorithms: zlib
-        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_f355b.dir/'
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f355b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /tmp/ccrgv1XE.s
-        GNU C++20 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
-        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) 
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/'
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_97048.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s
+        GNU C++20 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"
-        ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard"
-        ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"
-        ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
-        ignoring nonexistent directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/usr/local/include"
-        ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
-        ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
-        ignoring nonexistent directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/usr/include"
+        ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"
+        ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard"
+        ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"
+        ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/usr/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
         End of search list.
-        GNU C++20 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
-        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        GNU C++20 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        Compiler executable checksum: 1739522f0a9e455162f7f995fd318a21
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_f355b.dir/'
-         /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccrgv1XE.s
-        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
-        COMPILER_PATH=/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../libexec/gcc/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
-        LIBRARY_PATH=/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_f355b.a
-        /home/alazca/.conan2/p/cmake8e5340c297c76/p/bin/cmake -P CMakeFiles/cmTC_f355b.dir/cmake_clean_target.cmake
-        /home/alazca/.conan2/p/cmake8e5340c297c76/p/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f355b.dir/link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_f355b.a CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj
-        /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-ranlib libcmTC_f355b.a
-        make[1]: Leaving directory '/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD'
+        Compiler executable checksum: f0f3a7b1ef19c552eff395216faa1d26
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/'
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210
+        COMPILER_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_97048.a
+        /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_97048.dir/cmake_clean_target.cmake
+        /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97048.dir/link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_97048.a CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj
+        /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-ranlib libcmTC_97048.a
+        gmake[1]: Leaving directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:16 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
-          add: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
-          add: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
-          add: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
-          add: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
-          add: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+          add: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+          add: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+          add: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+          add: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
         end of search list found
-        collapse include dir [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1] ==> [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include/c++/12.2.1]
-        collapse include dir [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard] ==> [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
-        collapse include dir [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward] ==> [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include/c++/12.2.1/backward]
-        collapse include dir [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/lib/gcc/arm-none-eabi/12.2.1/include]
-        collapse include dir [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
-        collapse include dir [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include]
-        implicit include dirs: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include/c++/12.2.1;/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard;/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include/c++/12.2.1/backward;/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/lib/gcc/arm-none-eabi/12.2.1/include;/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/arm-none-eabi/include]
+        collapse include dir [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1] ==> [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1]
+        collapse include dir [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard] ==> [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        collapse include dir [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward] ==> [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/backward]
+        collapse include dir [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include]
+        implicit include dirs: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/backward;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/lib/gcc/arm-none-eabi/12.2.1/include;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:16 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD']
+        ignore line: [Change Dir: '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/alazca/.conan2/p/cmake8e5340c297c76/p/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f355b/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_f355b.dir/build.make CMakeFiles/cmTC_f355b.dir/build]
-        ignore line: [make[1]: Entering directory '/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD']
-        ignore line: [Building CXX object CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj -c /home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_97048/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_97048.dir/build.make CMakeFiles/cmTC_97048.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz']
+        ignore line: [Building CXX object CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-g++]
+        ignore line: [COLLECT_GCC=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
-        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
-        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_f355b.dir/']
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /home/alazca/.conan2/p/cmake8e5340c297c76/p/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f355b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /tmp/ccrgv1XE.s]
-        ignore line: [GNU C++20 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
-        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/']
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_97048.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s]
+        ignore line: [GNU C++20 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"]
-        ignore line: [ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard"]
-        ignore line: [ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"]
-        ignore line: [ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
-        ignore line: [ignoring nonexistent directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/usr/local/include"]
-        ignore line: [ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
-        ignore line: [ignoring duplicate directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
-        ignore line: [ignoring nonexistent directory "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/usr/include"]
+        ignore line: [ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"]
+        ignore line: [ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard"]
+        ignore line: [ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/usr/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard]
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
-        ignore line: [GNU C++20 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
-        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: [GNU C++20 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [Compiler executable checksum: 1739522f0a9e455162f7f995fd318a21]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_f355b.dir/']
-        ignore line: [ /home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccrgv1XE.s]
-        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
-        ignore line: [COMPILER_PATH=/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../libexec/gcc/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
-        ignore line: [LIBRARY_PATH=/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_f355b.a]
-        ignore line: [/home/alazca/.conan2/p/cmake8e5340c297c76/p/bin/cmake -P CMakeFiles/cmTC_f355b.dir/cmake_clean_target.cmake]
-        ignore line: [/home/alazca/.conan2/p/cmake8e5340c297c76/p/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f355b.dir/link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_f355b.a CMakeFiles/cmTC_f355b.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin/arm-none-eabi-ranlib libcmTC_f355b.a]
-        ignore line: [make[1]: Leaving directory '/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-YXk5hD']
+        ignore line: [Compiler executable checksum: f0f3a7b1ef19c552eff395216faa1d26]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/']
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_97048.a]
+        ignore line: [/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_97048.dir/cmake_clean_target.cmake]
+        ignore line: [/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97048.dir/link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_97048.a CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-ranlib libcmTC_97048.a]
+        ignore line: [gmake[1]: Leaving directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz']
         ignore line: []
         ignore line: []
         implicit libs: []

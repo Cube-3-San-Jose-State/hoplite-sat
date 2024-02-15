@@ -1,3 +1,3 @@
-/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/test_package.dir
-/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/edit_cache.dir
-/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/rebuild_cache.dir
+/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/test_package.dir
+/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/edit_cache.dir
+/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/rebuild_cache.dir

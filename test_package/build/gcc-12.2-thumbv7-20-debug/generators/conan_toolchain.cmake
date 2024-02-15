@@ -14,13 +14,17 @@ if(${CMAKE_VERSION} VERSION_LESS "3.15")
 endif()
 
 
-include("/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/res/toolchain.cmake")
+include("/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/res/toolchain.cmake")
 
 
+########## generic_system block #############
+# Definition of system, platform and toolset
+#############################################
 
 # Cross building
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR ARM)
+
 
 
 
@@ -71,9 +75,9 @@ list(PREPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR})
 # Definition of CMAKE_PREFIX_PATH, CMAKE_XXXXX_PATH
 # The Conan local "generators" folder, where this toolchain is saved.
 list(PREPEND CMAKE_PREFIX_PATH ${CMAKE_CURRENT_LIST_DIR} )
-list(PREPEND CMAKE_PROGRAM_PATH "/home/alazca/.conan2/p/cmake8e5340c297c76/p/bin" "/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin")
-list(PREPEND CMAKE_LIBRARY_PATH "/home/alazca/.conan2/p/b/telem9607f2e73cb30/p/lib" "/home/alazca/.conan2/p/libhad21ac9408c04f/p/lib" "/home/alazca/.conan2/p/libhadc34950f59ccb/p/lib" "/home/alazca/.conan2/p/libhad8b81e0ff1025/p/lib" "/home/alazca/.conan2/p/libhac36668484cd7a/p/lib" "/home/alazca/.conan2/p/libhac9a6203da3932/p/lib" "/home/alazca/.conan2/p/boost0919ce5474dfb/p/lib")
-list(PREPEND CMAKE_INCLUDE_PATH "/home/alazca/.conan2/p/b/telem9607f2e73cb30/p/include" "/home/alazca/.conan2/p/libhad21ac9408c04f/p/include" "/home/alazca/.conan2/p/libhadc34950f59ccb/p/include" "/home/alazca/.conan2/p/libhad8b81e0ff1025/p/include" "/home/alazca/.conan2/p/libhac36668484cd7a/p/include" "/home/alazca/.conan2/p/ring-9f549177d28e3/p/include" "/home/alazca/.conan2/p/libhac9a6203da3932/p/include" "/home/alazca/.conan2/p/libhaebe27e4f0d66f/p/include" "/home/alazca/.conan2/p/tl-fu31454aa876889/p/include" "/home/alazca/.conan2/p/boost0919ce5474dfb/p/include")
+list(PREPEND CMAKE_PROGRAM_PATH "/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin" "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin")
+list(PREPEND CMAKE_LIBRARY_PATH "/Users/adrien/.conan2/p/b/sat-c4116cefd39916/p/lib" "/Users/adrien/.conan2/p/b/telemf3b345fd881f9/p/lib" "/Users/adrien/.conan2/p/b/libha948f473678d3c/p/lib" "/Users/adrien/.conan2/p/b/libha11063baf80f44/p/lib" "/Users/adrien/.conan2/p/b/libhabc868406ed398/p/lib" "/Users/adrien/.conan2/p/b/libha6b62fedd043e1/p/lib" "/Users/adrien/.conan2/p/libhac9a6203da3932/p/lib" "/Users/adrien/.conan2/p/boost0919ce5474dfb/p/lib")
+list(PREPEND CMAKE_INCLUDE_PATH "/Users/adrien/.conan2/p/b/sat-c4116cefd39916/p/include" "/Users/adrien/.conan2/p/b/telemf3b345fd881f9/p/include" "/Users/adrien/.conan2/p/b/libha948f473678d3c/p/include" "/Users/adrien/.conan2/p/b/libha11063baf80f44/p/include" "/Users/adrien/.conan2/p/b/libhabc868406ed398/p/include" "/Users/adrien/.conan2/p/b/libha6b62fedd043e1/p/include" "/Users/adrien/.conan2/p/ring-9f549177d28e3/p/include" "/Users/adrien/.conan2/p/libhac9a6203da3932/p/include" "/Users/adrien/.conan2/p/libhaebe27e4f0d66f/p/include" "/Users/adrien/.conan2/p/tl-fu31454aa876889/p/include" "/Users/adrien/.conan2/p/boost0919ce5474dfb/p/include")
 
 if(NOT DEFINED CMAKE_FIND_ROOT_PATH_MODE_PACKAGE OR CMAKE_FIND_ROOT_PATH_MODE_PACKAGE STREQUAL "ONLY")
     set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE "BOTH")
@@ -104,3 +108,7 @@ endif()
 
 # Preprocessor definitions
 # Preprocessor definitions per configuration
+
+
+if(CMAKE_POLICY_DEFAULT_CMP0091)  # Avoid unused and not-initialized warnings
+endif()

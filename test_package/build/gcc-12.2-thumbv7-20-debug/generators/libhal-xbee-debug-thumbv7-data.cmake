@@ -10,7 +10,7 @@ set(libhal_FIND_MODE "NO_MODULE")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(libhal-xbee_PACKAGE_FOLDER_DEBUG "/home/alazca/.conan2/p/libhac36668484cd7a/p")
+set(libhal-xbee_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/b/libha6b62fedd043e1/p")
 set(libhal-xbee_BUILD_MODULES_PATHS_DEBUG )
 
 
