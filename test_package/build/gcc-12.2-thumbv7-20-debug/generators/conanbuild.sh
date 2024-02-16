@@ -1,1 +1,1 @@
-. "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conanbuildenv-debug-thumbv7.sh"
+. "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conanbuildenv-debug-thumbv7.sh"

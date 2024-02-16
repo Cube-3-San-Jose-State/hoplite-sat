@@ -2,18 +2,17 @@
 #############################################################################################
 
 set(telemetry-recorder_COMPONENT_NAMES "")
-list(APPEND telemetry-recorder_FIND_DEPENDENCY_NAMES libhal-icm libhal-neo libhal-mpl libhal-xbee libhal-util libhal)
+list(APPEND telemetry-recorder_FIND_DEPENDENCY_NAMES libhal-icm libhal-neo libhal-mpl libhal-util libhal)
 list(REMOVE_DUPLICATES telemetry-recorder_FIND_DEPENDENCY_NAMES)
 set(libhal-icm_FIND_MODE "NO_MODULE")
 set(libhal-neo_FIND_MODE "NO_MODULE")
 set(libhal-mpl_FIND_MODE "NO_MODULE")
-set(libhal-xbee_FIND_MODE "NO_MODULE")
 set(libhal-util_FIND_MODE "NO_MODULE")
 set(libhal_FIND_MODE "NO_MODULE")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(telemetry-recorder_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/b/telemf3b345fd881f9/p")
+set(telemetry-recorder_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/b/telemc81ea56982e3f/p")
 set(telemetry-recorder_BUILD_MODULES_PATHS_DEBUG )
 
 

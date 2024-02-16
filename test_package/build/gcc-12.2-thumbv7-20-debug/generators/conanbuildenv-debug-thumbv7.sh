@@ -1,4 +1,4 @@
-script_folder="/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators"
+script_folder="/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators"
 echo "echo Restoring environment" > "$script_folder/../../../build/gcc-12.2-thumbv7-20-debug/generators/deactivate_conanbuildenv-debug-thumbv7.sh"
 for v in LIBHAL_PLATFORM_LIBRARY LIBHAL_PLATFORM PATH
 do

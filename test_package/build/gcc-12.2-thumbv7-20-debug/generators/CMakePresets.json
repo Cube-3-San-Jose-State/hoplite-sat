@@ -23,8 +23,8 @@
                 "LIBHAL_PLATFORM": "lpc4078",
                 "PATH": "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin:/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin:$penv{PATH}:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin"
             },
-            "toolchainFile": "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake",
-            "binaryDir": "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug"
+            "toolchainFile": "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake",
+            "binaryDir": "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug"
         }
     ],
     "buildPresets": [

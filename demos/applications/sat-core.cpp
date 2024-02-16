@@ -37,8 +37,6 @@ hal::status application(hardware_map& p_map)
   (void)hal::delay(clock, 100ms);
   auto neoGPS = HAL_CHECK(hal::neo::neo_m9n::create(gps));
   (void)hal::delay(clock, 100ms);
-  auto xbee_module = HAL_CHECK(hal::xbee::xbee_radio::create(rpi, clock));
-  (void)hal::delay(clock, 100ms);
   auto mpl_device = HAL_CHECK(hal::mpl::mpl3115a2::create(
     i2c,
     hal::mpl::mpl3115a2::mpl_os_rate::os64));  // change barometer sampling rate
@@ -48,7 +46,7 @@ hal::status application(hardware_map& p_map)
 
   auto telemetry_recorder =
     HAL_CHECK(hal::telemetry_recorder::telemetry_recorder::create(
-      icm_device, neoGPS, mpl_device, xbee_module));
+      icm_device, neoGPS, mpl_device));
 
   auto hoplite = HAL_CHECK(hal::sat_core::sat_core::create(rpi));
 

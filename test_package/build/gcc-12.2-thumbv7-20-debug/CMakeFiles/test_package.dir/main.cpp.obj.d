@@ -1,6 +1,6 @@
 CMakeFiles/test_package.dir/main.cpp.obj: \
- /Users/adrien/Repos/hoplite-sat/test_package/main.cpp \
- /Users/adrien/.conan2/p/b/sat-c4116cefd39916/p/include/sat-core/sat-core.hpp \
+ /Users/adrien/Repos/sat-core/test_package/main.cpp \
+ /Users/adrien/.conan2/p/b/sat-c91202eb1528e3/p/include/sat-core/sat-core.hpp \
  /Users/adrien/.conan2/p/libhaebe27e4f0d66f/p/include/libhal/functional.hpp \
  /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/cstdint \
  /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
@@ -236,28 +236,9 @@ CMakeFiles/test_package.dir/main.cpp.obj: \
  /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/bits/ranges_util.h \
  /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/pstl/glue_algorithm_defs.h \
  /Users/adrien/.conan2/p/libhac9a6203da3932/p/include/libhal-util/math.hpp \
- /Users/adrien/.conan2/p/b/telemf3b345fd881f9/p/include/telemetry-recorder/telemetry-recorder.hpp \
+ /Users/adrien/.conan2/p/b/telemc81ea56982e3f/p/include/telemetry-recorder/telemetry-recorder.hpp \
  /Users/adrien/.conan2/p/b/libha948f473678d3c/p/include/libhal-icm/icm20948.hpp \
  /Users/adrien/.conan2/p/libhaebe27e4f0d66f/p/include/libhal/i2c.hpp \
  /Users/adrien/.conan2/p/b/libhabc868406ed398/p/include/libhal-mpl/mpl3115a2.hpp \
  /Users/adrien/.conan2/p/b/libha11063baf80f44/p/include/libhal-neo/neo-m9n.hpp \
- /Users/adrien/.conan2/p/libhac9a6203da3932/p/include/libhal-util/streams.hpp \
- /Users/adrien/.conan2/p/b/libha6b62fedd043e1/p/include/libhal-xbee/xbee.hpp \
- /Users/adrien/.conan2/p/libhac9a6203da3932/p/include/libhal-util/steady_clock.hpp \
- /Users/adrien/.conan2/p/libhaebe27e4f0d66f/p/include/libhal/steady_clock.hpp \
- /Users/adrien/.conan2/p/libhac9a6203da3932/p/include/libhal-util/units.hpp \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/cmath \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/math.h \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/bits/specfun.h \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/gamma.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/special_function_util.h \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/bessel_function.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/beta_function.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/ell_integral.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/exp_integral.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/hypergeometric.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/legendre_function.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/modified_bessel_func.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/poly_hermite.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/poly_laguerre.tcc \
- /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/arm-none-eabi/include/c++/12.2.1/tr1/riemann_zeta.tcc
+ /Users/adrien/.conan2/p/libhac9a6203da3932/p/include/libhal-util/streams.hpp

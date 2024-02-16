@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Darwin")
 set(CMAKE_HOST_SYSTEM_VERSION "23.2.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "arm64")
 
-include("/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake")
+include("/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

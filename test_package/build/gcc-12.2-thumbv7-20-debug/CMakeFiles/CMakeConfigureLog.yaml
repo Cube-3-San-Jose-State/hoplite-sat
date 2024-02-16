@@ -59,7 +59,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        /Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o
+        /Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "try_compile-v1"
@@ -70,24 +70,24 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz"
-      binary: "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz"
+      source: "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO"
+      binary: "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: "--specs=nano.specs --specs=nosys.specs --specs=picolibc.specs -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections"
-      CMAKE_MODULE_PATH: "/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/res"
+      CMAKE_MODULE_PATH: "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators;/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/res"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz'
+        Change Dir: '/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO'
         
-        Run Build Command(s): /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_97048/fast
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_97048.dir/build.make CMakeFiles/cmTC_97048.dir/build
-        gmake[1]: Entering directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz'
-        Building CXX object CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj
-        /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_057d4/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_057d4.dir/build.make CMakeFiles/cmTC_057d4.dir/build
+        gmake[1]: Entering directory '/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO'
+        Building CXX object CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj
+        /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -95,8 +95,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) 
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/'
-         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_97048.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_057d4.dir/'
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_057d4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccUzzPpE.s
         GNU C++20 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -123,18 +123,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f0f3a7b1ef19c552eff395216faa1d26
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/'
-         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_057d4.dir/'
+         /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccUzzPpE.s
         GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210
         COMPILER_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_97048.a
-        /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_97048.dir/cmake_clean_target.cmake
-        /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97048.dir/link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_97048.a CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj
-        /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-ranlib libcmTC_97048.a
-        gmake[1]: Leaving directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz'
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_057d4.a
+        /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_057d4.dir/cmake_clean_target.cmake
+        /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_057d4.dir/link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_057d4.a CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj
+        /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-ranlib libcmTC_057d4.a
+        gmake[1]: Leaving directory '/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO'
         
       exitCode: 0
   -
@@ -172,13 +172,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz']
+        ignore line: [Change Dir: '/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_97048/fast]
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_97048.dir/build.make CMakeFiles/cmTC_97048.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz']
-        ignore line: [Building CXX object CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_057d4/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_057d4.dir/build.make CMakeFiles/cmTC_057d4.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO']
+        ignore line: [Building CXX object CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++ -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -186,8 +186,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2 (Build arm-12.24)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/']
-        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_97048.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_057d4.dir/']
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 /Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_057d4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccUzzPpE.s]
         ignore line: [GNU C++20 (Arm GNU Toolchain 12.2 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -214,18 +214,18 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f0f3a7b1ef19c552eff395216faa1d26]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/']
-        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccyz2Asq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_057d4.dir/']
+        ignore line: [ /Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/5v/j45hl19s69154yh0ycbt69gh0000gn/T//ccUzzPpE.s]
         ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2 (Build arm-12.24)) 2.39.0.20221210]
         ignore line: [COMPILER_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../libexec/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_97048.a]
-        ignore line: [/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_97048.dir/cmake_clean_target.cmake]
-        ignore line: [/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97048.dir/link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_97048.a CMakeFiles/cmTC_97048.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-ranlib libcmTC_97048.a]
-        ignore line: [gmake[1]: Leaving directory '/Users/adrien/Repos/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-pHQxaz']
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_057d4.a]
+        ignore line: [/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -P CMakeFiles/cmTC_057d4.dir/cmake_clean_target.cmake]
+        ignore line: [/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_057d4.dir/link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_057d4.a CMakeFiles/cmTC_057d4.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin/arm-none-eabi-ranlib libcmTC_057d4.a]
+        ignore line: [gmake[1]: Leaving directory '/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-OFVXqO']
         ignore line: []
         ignore line: []
         implicit libs: []
