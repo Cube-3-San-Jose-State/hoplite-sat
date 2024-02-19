@@ -22,8 +22,6 @@ This project is not an official Google project. It is not supported by
 Google and Google specifically disclaims all warranties as to its quality,
 merchantability, or fitness for a particular purpose.
 
-**AFTER CLONING DELETE THE SECTION BELOW AND ADD YOUR OWN CONTENT**.
-
 ## Making a new device driver
 
 To make your own libhal library:
