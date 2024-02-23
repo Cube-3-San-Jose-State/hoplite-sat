@@ -12,13 +12,58 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#include <bitset>
 #include <libhal-util/serial.hpp>
 #include <libhal-util/steady_clock.hpp>
+#include <string>
 
 #include "../hardware_map.hpp"
-#include <telemetry-recorder/telemetry-recorder.hpp>
 #include <sat-core/sat-core.hpp>
+#include <telemetry-recorder/telemetry-recorder.hpp>
 
+/**
+ * @brief Appends a checksum to a string
+ * @param s The string to append the checksum to
+ * @return The string with the checksum appended
+
+*/
+std::string appendCheckSum(std::string s)
+{
+  // find checksum
+  int count_nums = 0;
+  for (char c : s) {
+    count_nums += static_cast<int>(c);
+  }
+
+  // append checksum to string s
+  return s.substr(0, s.size() - 3) +
+         ",\n  \"Checksum\": " + std::to_string(count_nums) +
+         s.substr(s.size() - 3);
+}
+
+/**
+ * @brief Verifies the checksum of a string
+ * @param s The string to verify the checksum of
+ * @return True if the checksum is correct, false otherwise
+ */
+bool verifyCheckSum(std::string s)
+{
+  // find predicted checksum
+  int predicted_checksum =
+    stoi(s.substr(s.find("Checksum") + 11, s.size() - 3));
+
+  // find original json
+  std::string original =
+    s.substr(0, s.find("Checksum") - 5) + s.substr(s.size() - 3);
+
+  // find checksum of original json
+  int count_nums = 0;
+  for (char c : original) {
+    count_nums += static_cast<int>(c);
+  }
+
+  return count_nums == predicted_checksum;
+}
 
 hal::status application(hardware_map& p_map)
 {
@@ -112,12 +157,15 @@ hal::status application(hardware_map& p_map)
              telemetry_recorder_data.gps_alt,
              telemetry_recorder_data.gps_time);
 
+    // add checksum
+    telem_data = appendCheckSum(telem_data);
+
     hal::print<512>(console, telem_data);
 
     hoplite.transmit_rpi(telem_data);
 
     auto recieved_data = HAL_CHECK(hoplite.recieve_rpi());
-    
+
     hal::print(console,
                "\n=================== RECIEVED PI DATA ===================\n");
     hal::print(console, recieved_data);
