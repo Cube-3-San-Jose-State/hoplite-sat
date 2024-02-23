@@ -48,10 +48,10 @@ find_package(libhal-mock REQUIRED CONFIG)
 add_executable(${PROJECT_NAME}
 
   # Source files
-  ../src/telemetry-recorder.cpp
+  ../src/sat-core.cpp
 
   # Test source files
-  telemetry-recorder.test.cpp
+  sat-core.test.cpp
 
   # Main file for test
   main.test.cpp)

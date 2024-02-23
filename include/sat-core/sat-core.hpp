@@ -15,22 +15,34 @@
 #pragma once
 
 #include <libhal/functional.hpp>
-#include <libhal/i2c.hpp>
 #include <libhal/serial.hpp>
-#include <libhal/steady_clock.hpp>
+#include <span>
 
-struct hardware_map
+
+#include <libhal/timeout.hpp>
+#include <libhal/units.hpp>
+#include <libhal-util/serial.hpp>
+
+#include <telemetry-recorder/telemetry-recorder.hpp>
+
+namespace hal::sat_core {
+class sat_core
 {
-  hal::serial* console;
-  hal::serial* rpi;
-  hal::serial* gps;
-  hal::steady_clock* clock;
-  hal::i2c* i2c;
-  hal::callback<void()> reset;
-};
 
-// Application function must be implemented by one of the compilation units
-// (.cpp) files.
-hal::status application(hardware_map& p_map);
-hal::status initialize_processor();
-hal::result<hardware_map> initialize_platform();
+public:
+  [[nodiscard]] static result<sat_core> create(hal::serial& p_serial);
+
+  hal::result<std::span<hal::byte>> recieve_rpi();
+
+  hal::status transmit_rpi(std::string_view message);
+
+    private
+    : explicit sat_core(hal::serial& p_serial)
+    : m_rpi_serial(&p_serial)
+  {
+  }
+
+  hal::serial* m_rpi_serial;
+  std::array<hal::byte, 512> m_rpi_buffer;
+};
+}  // namespace hal::sat_core

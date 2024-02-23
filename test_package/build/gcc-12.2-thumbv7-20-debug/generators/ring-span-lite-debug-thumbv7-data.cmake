@@ -7,7 +7,7 @@ set(ring-span-lite_FIND_DEPENDENCY_NAMES "")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(ring-span-lite_PACKAGE_FOLDER_DEBUG "/home/alazca/.conan2/p/ring-9f549177d28e3/p")
+set(ring-span-lite_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/ring-9f549177d28e3/p")
 set(ring-span-lite_BUILD_MODULES_PATHS_DEBUG )
 
 

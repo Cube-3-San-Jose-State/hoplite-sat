@@ -1,4 +1,4 @@
-// Copyright 2023 Google LLC
+// Copyright 2024 Khalil Estell
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,18 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <sat-core/sat-core.hpp>
-#include <libhal/error.hpp>
+#pragma once
 
-int main()
-{
-  // hal::telemetry_recorder::telemetry_recorder;
-  return 0;
-}
-
-namespace boost {
-void throw_exception(std::exception const& e)
-{
-  hal::halt();
-}
-}  // namespace boost
+namespace hal:: {
+class _replace_me
+{};
+}  // namespace hal::

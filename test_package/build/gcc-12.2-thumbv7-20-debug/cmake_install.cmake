@@ -1,8 +1,8 @@
-# Install script for directory: /home/alazca/Documents/Development/cube3/telemetry-recorder/test_package
+# Install script for directory: /Users/adrien/Repos/sat-core/test_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package")
+  set(CMAKE_INSTALL_PREFIX "/Users/adrien/Repos/sat-core/test_package")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-script_folder="/home/alazca/Documents/Development/cube3/telemetry-recorder/test_package/build/gcc-12.2-thumbv7-20-debug/generators"
+script_folder="/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators"
 echo "echo Restoring environment" > "$script_folder/../../../build/gcc-12.2-thumbv7-20-debug/generators/deactivate_conanbuildenv-debug-thumbv7.sh"
 for v in LIBHAL_PLATFORM_LIBRARY LIBHAL_PLATFORM PATH
 do
@@ -15,4 +15,4 @@ done
 
 export LIBHAL_PLATFORM_LIBRARY="lpc40"
 export LIBHAL_PLATFORM="lpc4078"
-export PATH="/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin:/home/alazca/.conan2/p/cmake8e5340c297c76/p/bin:$PATH:/home/alazca/.conan2/p/b/arm-g9adff9287b85b/p/bin/bin"
+export PATH="/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin:/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin:$PATH:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin"

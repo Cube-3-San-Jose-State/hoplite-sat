@@ -23,13 +23,13 @@ required_conan_version = ">=2.0.6"
 
 
 class telemetry_recorder_conan(ConanFile):
-    name = "telemetry-recorder"
+    name = "sat-core"
     version = "0.0.1"
     license = "Apache-2.0"
     url = "https://github.com/conan-io/conan-center-index"
-    homepage = "https://github.com/libhal/telemetry-recorder"
-    description = ("A collection of drivers for the telemetry-recorder")
-    topics = ("telemetry-recorder", "libhal", "driver")
+    homepage = "https://github.com/libhal/sat-core"
+    description = ("A collection of drivers for the sat-core")
+    topics = ("sat-core", "libhal", "driver")
     settings = "compiler", "build_type", "os", "arch"
     exports_sources = ("include/*", "tests/*", "LICENSE", "CMakeLists.txt",
                        "src/*")
@@ -64,10 +64,7 @@ class telemetry_recorder_conan(ConanFile):
     def requirements(self):
         self.requires("libhal/2.2.0", transitive_headers=True)
         self.requires("libhal-util/[^3.0.0]")
-        self.requires("libhal-icm/[^0.0.1]")
-        self.requires("libhal-neo/[^0.0.1]")
-        self.requires("libhal-mpl/[^0.0.1]")
-        self.requires("libhal-xbee/[^0.0.1]")
+        self.requires("telemetry-recorder/[^0.0.1]")
 
     def layout(self):
         cmake_layout(self)
@@ -109,5 +106,5 @@ class telemetry_recorder_conan(ConanFile):
         cmake.install()
 
     def package_info(self):
-        self.cpp_info.libs = ["telemetry-recorder"]
-        self.cpp_info.set_property("cmake_target_name", "libhal::telemetry-recorder")
+        self.cpp_info.libs = ["sat-core"]
+        self.cpp_info.set_property("cmake_target_name", "libhal::sat-core")

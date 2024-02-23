@@ -1,4 +1,4 @@
-# Copyright 2024 Khalil Estell
+# Copyright 2023 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 
 cmake_minimum_required(VERSION 3.20)
 
-project(demos LANGUAGES CXX)
+project(demos VERSION 0.0.1 LANGUAGES CXX)
 
 set(platform_library $ENV{LIBHAL_PLATFORM_LIBRARY})
 set(platform $ENV{LIBHAL_PLATFORM})
@@ -27,10 +27,10 @@ if("${platform_library}" STREQUAL "")
 endif()
 
 find_package(libhal-${platform_library} REQUIRED CONFIG)
-find_package(libhal- REQUIRED CONFIG)
+find_package(sat-core REQUIRED CONFIG)
 find_package(libhal-util REQUIRED CONFIG)
 
-set(DEMOS )
+set(DEMOS sat-core)
 
 add_library(startup_code
     main.cpp
@@ -39,7 +39,7 @@ target_include_directories(startup_code PUBLIC .)
 target_compile_features(startup_code PRIVATE cxx_std_20)
 target_link_libraries(startup_code PRIVATE
     libhal::${platform_library}
-    libhal::
+    libhal::sat-core
     libhal::util)
 
 foreach(demo IN LISTS DEMOS)
@@ -49,10 +49,11 @@ foreach(demo IN LISTS DEMOS)
     target_include_directories(${current_project} PUBLIC .)
     target_compile_features(${current_project} PRIVATE cxx_std_20)
     target_compile_options(${current_project} PRIVATE -g)
-    target_link_options(${current_project} PRIVATE --oslib=semihost)
+    target_link_options(${current_project} PRIVATE
+        --oslib=semihost --crt0=minimal)
     target_link_libraries(${current_project} PRIVATE
         libhal::${platform_library}
-        libhal::
+        libhal::sat-core
         libhal::util
         startup_code)
     libhal_post_build(${current_project})

@@ -16,7 +16,7 @@ set_property(TARGET telemetry-recorder_DEPS_TARGET
              PROPERTY INTERFACE_LINK_LIBRARIES
              $<$<CONFIG:Debug>:${telemetry-recorder_FRAMEWORKS_FOUND_DEBUG}>
              $<$<CONFIG:Debug>:${telemetry-recorder_SYSTEM_LIBS_DEBUG}>
-             $<$<CONFIG:Debug>:libhal::icm;libhal::neo;libhal::mpl;libhal::xbee;libhal::util;libhal::libhal>
+             $<$<CONFIG:Debug>:libhal::icm;libhal::neo;libhal::mpl;libhal::util;libhal::libhal>
              APPEND)
 
 ####### Find the libraries declared in cpp_info.libs, create an IMPORTED target for each one and link the

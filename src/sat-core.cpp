@@ -12,20 +12,31 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <telemetry-recorder/telemetry-recorder.hpp>
+#include "sat-core/sat-core.hpp"
 
-#include <boost/ut.hpp>
+namespace hal::sat_core {
 
-namespace hal::telemetry_recorder {
-void telemetry_recorder_test()
+result<sat_core> sat_core::create(hal::serial& p_serial)
 {
-  using namespace boost::ut;
-  using namespace std::literals;
+  sat_core new_sat_core(p_serial);
+  return new_sat_core;
+}
 
-  "telemetry_recorder::create()"_test = []() {
-    // Setup
-    // Exercise
-    // Verify
-  };
-};
-}  // namespace hal::telemetry_recorder
+hal::result<std::span<hal::byte>> sat_core::recieve_rpi()
+{
+  auto data_recieved = HAL_CHECK(m_rpi_serial->read(m_rpi_buffer)).data;
+  return data_recieved;
+}
+
+hal::status sat_core::transmit_rpi(std::string_view message)
+{
+  hal::write(*m_rpi_serial, message);
+  return hal::success();
+}
+
+}  // namespace hal::sat_core
+
+
+
+
+

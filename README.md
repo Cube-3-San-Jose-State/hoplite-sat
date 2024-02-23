@@ -1,12 +1,12 @@
-# telemetry-recorder
+# sat-core
 
-[![✅ Checks](https://github.com/libhal/telemetry-recorder/actions/workflows/ci.yml/badge.svg)](https://github.com/libhal/telemetry-recorder/actions/workflows/ci.yml)
-[![Coverage](https://libhal.github.io/telemetry-recorder/coverage/coverage.svg)](https://libhal.github.io/telemetry-recorder/coverage/)
-[![GitHub stars](https://img.shields.io/github/stars/libhal/telemetry-recorder.svg)](https://github.com/libhal/telemetry-recorder/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/libhal/telemetry-recorder.svg)](https://github.com/libhal/telemetry-recorder/network)
-[![GitHub issues](https://img.shields.io/github/issues/libhal/telemetry-recorder.svg)](https://github.com/libhal/telemetry-recorder/issues)
+[![✅ Checks](https://github.com/libhal/sat-core/actions/workflows/ci.yml/badge.svg)](https://github.com/libhal/sat-core/actions/workflows/ci.yml)
+[![Coverage](https://libhal.github.io/sat-core/coverage/coverage.svg)](https://libhal.github.io/sat-core/coverage/)
+[![GitHub stars](https://img.shields.io/github/stars/libhal/sat-core.svg)](https://github.com/libhal/sat-core/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/libhal/sat-core.svg)](https://github.com/libhal/sat-core/network)
+[![GitHub issues](https://img.shields.io/github/issues/libhal/sat-core.svg)](https://github.com/libhal/sat-core/issues)
 
-libhal compatible device library for the telemetry-recorder device.
+libhal compatible device library for the sat-core device.
 
 ## Contributing
 
@@ -21,8 +21,6 @@ Apache 2.0; see [`LICENSE`](LICENSE) for details.
 This project is not an official Google project. It is not supported by
 Google and Google specifically disclaims all warranties as to its quality,
 merchantability, or fitness for a particular purpose.
-
-**AFTER CLONING DELETE THE SECTION BELOW AND ADD YOUR OWN CONTENT**.
 
 ## Making a new device driver
 
@@ -41,7 +39,7 @@ To make your own libhal library:
 
 ## About the libhal-device template
 
-The telemetry-recorder repository is a template for creating device libraries in
+The sat-core repository is a template for creating device libraries in
 the libhal ecosystem. It provides a structured layout and a set of files to help
 you get started with creating your own device library.
 
@@ -80,7 +78,7 @@ the datasheet (and potentially mirrors of it) is an acceptable alternative.
 This directory contains demonstration applications showing how to use the device
 library. It includes:
 
-- `applications/telemetry-recorder.cpp`: A sample application demonstrating usage of the
+- `applications/sat-core.cpp`: A sample application demonstrating usage of the
   device library.
 - `hardware_map.hpp`: A header file defining the hardware map for the demo
   applications.
@@ -88,16 +86,16 @@ library. It includes:
 - `platforms/lpc4074.cpp` and `platforms/lpc4078.cpp`: Platform-specific
   implementations for the demo applications.
 
-## include/telemetry-recorder
+## include/sat-core
 
 This directory contains the header files for the device library. It currently
-includes `telemetry-recorder.hpp`, which is a placeholder for the main header file of
+includes `sat-core.hpp`, which is a placeholder for the main header file of
 your device library.
 
 ## src
 
 This directory contains the source files for the device library. It currently
-includes `telemetry-recorder.cpp`, which is a placeholder for the main source file of
+includes `sat-core.cpp`, which is a placeholder for the main source file of
 your device library.
 
 ## test_package
@@ -110,8 +108,8 @@ Conan recipe is working correctly.
 
 This directory contains tests for the device library. It includes:
 
-- `telemetry-recorder.test.cpp`: A placeholder for tests for the device library.
+- `sat-core.test.cpp`: A placeholder for tests for the device library.
 - `main.test.cpp`: The main entry point for the tests.
 
-Remember to replace all instances of `telemetry-recorder` with the actual name of the
+Remember to replace all instances of `sat-core` with the actual name of the
 device that your library is being built for.
