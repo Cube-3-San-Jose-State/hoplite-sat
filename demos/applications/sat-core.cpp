@@ -57,6 +57,7 @@ hal::status application(hardware_map& p_map)
   float slp = 101325;                          // Default is 101325 Pa
   mpl_device.set_sea_pressure(slp);
 
+  vector<str> history;
   while (true) {
     hal::print(console, "\n=================== Data ===================\n");
     auto telemetry_recorder_data = HAL_CHECK(telemetry_recorder.record());
@@ -109,7 +110,7 @@ hal::status application(hardware_map& p_map)
              telemetry_recorder_data.gps_sats,
              telemetry_recorder_data.gps_alt,
              telemetry_recorder_data.gps_time);
-
+    history.insert(telem_data);
     hal::print<512>(console, telem_data);
 
     hoplite.transmit_rpi(telem_data);
