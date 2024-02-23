@@ -25,7 +25,7 @@ foreach(_DEPENDENCY ${libhal-mpl_FIND_DEPENDENCY_NAMES} )
     endif()
 endforeach()
 
-set(libhal-mpl_VERSION_STRING "0.0.1")
+set(libhal-mpl_VERSION_STRING "0.0.2")
 set(libhal-mpl_INCLUDE_DIRS ${libhal-mpl_INCLUDE_DIRS_DEBUG} )
 set(libhal-mpl_INCLUDE_DIR ${libhal-mpl_INCLUDE_DIRS_DEBUG} )
 set(libhal-mpl_LIBRARIES ${libhal-mpl_LIBRARIES_DEBUG} )

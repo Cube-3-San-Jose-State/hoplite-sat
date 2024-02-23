@@ -9,7 +9,7 @@ set(libhal_FIND_MODE "NO_MODULE")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(libhal-neo_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/b/libha11063baf80f44/p")
+set(libhal-neo_PACKAGE_FOLDER_DEBUG "C:/Users/daphn/.conan2/p/libhadc34950f59ccb/p")
 set(libhal-neo_BUILD_MODULES_PATHS_DEBUG )
 
 
