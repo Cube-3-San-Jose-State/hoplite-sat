@@ -12,8 +12,25 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "libhal-/.hpp"
-#include <string>
+#include <libhal-util/serial.hpp>
+#include <libhal-util/steady_clock.hpp>
 
-namespace hal::{
-};
+#include "../hardware_map.hpp"
+
+hal::status application(hardware_map& p_map)
+{
+  using namespace std::chrono_literals;
+  using namespace hal::literals;
+
+  auto& clock = *p_map.clock;
+  auto& console = *p_map.console;
+
+  hal::print(console, "Demo Application Starting...\n\n");
+
+  while (true) {
+    hal::delay(clock, 500ms);
+    hal::print(console, "Hello, world\n");
+  }
+
+  return hal::success();
+}

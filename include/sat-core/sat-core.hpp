@@ -18,10 +18,9 @@
 #include <libhal/serial.hpp>
 #include <span>
 
-
+#include <libhal-util/serial.hpp>
 #include <libhal/timeout.hpp>
 #include <libhal/units.hpp>
-#include <libhal-util/serial.hpp>
 
 #include <telemetry-recorder/telemetry-recorder.hpp>
 
@@ -36,8 +35,8 @@ public:
 
   hal::status transmit_rpi(std::string_view message);
 
-    private
-    : explicit sat_core(hal::serial& p_serial)
+private:
+  explicit sat_core(hal::serial& p_serial)
     : m_rpi_serial(&p_serial)
   {
   }
