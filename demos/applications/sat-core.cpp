@@ -82,9 +82,7 @@ hal::status application(hardware_map& p_map)
   (void)hal::delay(clock, 100ms);
   auto neoGPS = HAL_CHECK(hal::neo::neo_m9n::create(gps));
   (void)hal::delay(clock, 100ms);
-  auto mpl_device = HAL_CHECK(hal::mpl::mpl3115a2::create(
-    i2c,
-    hal::mpl::mpl3115a2::mpl_os_rate::os64));  // change barometer sampling rate
+  auto mpl_device = HAL_CHECK(hal::mpl::mpl3115a2::create(i2c)); 
   (void)hal::delay(clock, 100ms);
   auto icm_device = HAL_CHECK(hal::icm::icm20948::create(i2c));
   (void)hal::delay(clock, 100ms);
@@ -176,3 +174,7 @@ hal::status application(hardware_map& p_map)
 
   return hal::success();
 }
+
+// what packages do you need?
+// navigation?
+// comms (Radio)?

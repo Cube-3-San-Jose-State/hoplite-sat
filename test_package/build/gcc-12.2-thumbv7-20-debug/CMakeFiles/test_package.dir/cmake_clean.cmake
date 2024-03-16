@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_package.dir/main.cpp.obj"
   "CMakeFiles/test_package.dir/main.cpp.obj.d"
   "test_package"
+  "test_package.manifest"
   "test_package.pdb"
 )
 

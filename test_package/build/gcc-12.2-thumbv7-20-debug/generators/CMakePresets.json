@@ -12,19 +12,20 @@
         {
             "name": "conan-gcc-12.2-thumbv7-20-debug",
             "displayName": "'conan-gcc-12.2-thumbv7-20-debug' config",
-            "description": "'conan-gcc-12.2-thumbv7-20-debug' configure using 'Unix Makefiles' generator",
-            "generator": "Unix Makefiles",
+            "description": "'conan-gcc-12.2-thumbv7-20-debug' configure using 'MinGW Makefiles' generator",
+            "generator": "MinGW Makefiles",
             "cacheVariables": {
+                "CMAKE_SH": "CMAKE_SH-NOTFOUND",
                 "CMAKE_POLICY_DEFAULT_CMP0091": "NEW",
                 "CMAKE_BUILD_TYPE": "Debug"
             },
             "environment": {
                 "LIBHAL_PLATFORM_LIBRARY": "lpc40",
                 "LIBHAL_PLATFORM": "lpc4078",
-                "PATH": "/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin:/Users/adrien/.conan2/p/cmake253f38c8fbec3/p/CMake.app/Contents/bin:$penv{PATH}:/Users/adrien/.conan2/p/b/arm-ge47aa5425c57a/p/bin/bin"
+                "PATH": "C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin/bin;C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin;$penv{PATH};C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin/bin"
             },
-            "toolchainFile": "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake",
-            "binaryDir": "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug"
+            "toolchainFile": "C:\\Users\\daphn\\OneDrive\\Documents\\Cube3\\hoplite-sat\\test_package\\build\\gcc-12.2-thumbv7-20-debug\\generators\\conan_toolchain.cmake",
+            "binaryDir": "C:\\Users\\daphn\\OneDrive\\Documents\\Cube3\\hoplite-sat\\test_package\\build\\gcc-12.2-thumbv7-20-debug"
         }
     ],
     "buildPresets": [

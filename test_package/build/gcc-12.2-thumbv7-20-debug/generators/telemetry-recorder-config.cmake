@@ -25,7 +25,7 @@ foreach(_DEPENDENCY ${telemetry-recorder_FIND_DEPENDENCY_NAMES} )
     endif()
 endforeach()
 
-set(telemetry-recorder_VERSION_STRING "0.0.1")
+set(telemetry-recorder_VERSION_STRING "0.0.2")
 set(telemetry-recorder_INCLUDE_DIRS ${telemetry-recorder_INCLUDE_DIRS_DEBUG} )
 set(telemetry-recorder_INCLUDE_DIR ${telemetry-recorder_INCLUDE_DIRS_DEBUG} )
 set(telemetry-recorder_LIBRARIES ${telemetry-recorder_LIBRARIES_DEBUG} )

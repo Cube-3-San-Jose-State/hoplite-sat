@@ -9,7 +9,7 @@ set(boost-leaf_FIND_MODE "NO_MODULE")
 
 ########### VARIABLES #######################################################################
 #############################################################################################
-set(libhal_PACKAGE_FOLDER_DEBUG "/Users/adrien/.conan2/p/libhaebe27e4f0d66f/p")
+set(libhal_PACKAGE_FOLDER_DEBUG "C:/Users/daphn/.conan2/p/libhaebe27e4f0d66f/p")
 set(libhal_BUILD_MODULES_PATHS_DEBUG )
 
 
