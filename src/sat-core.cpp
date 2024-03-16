@@ -35,8 +35,3 @@ hal::status sat_core::transmit_rpi(std::string_view message)
 }
 
 }  // namespace hal::sat_core
-
-
-
-
-
