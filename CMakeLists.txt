@@ -16,14 +16,13 @@ cmake_minimum_required(VERSION 3.15)
 
 project(sat-core VERSION 0.0.1 LANGUAGES CXX)
 
-
 find_package(libhal REQUIRED CONFIG)
 find_package(libhal-util REQUIRED CONFIG)
 find_package(telemetry-recorder REQUIRED CONFIG)
-# find_package(libhal-icm REQUIRED CONFIG)
-# find_package(libhal-neo REQUIRED CONFIG)
-# find_package(libhal-mpl REQUIRED CONFIG)
-# find_package(libhal-xbee REQUIRED CONFIG)
+find_package(libhal-icm REQUIRED CONFIG)
+find_package(libhal-neo REQUIRED CONFIG)
+find_package(libhal-mpl REQUIRED CONFIG)
+find_package(libhal-xbee REQUIRED CONFIG)
 
 
 add_library(sat-core src/sat-core.cpp)

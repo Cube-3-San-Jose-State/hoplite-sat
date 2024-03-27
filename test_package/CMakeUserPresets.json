@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/Users/adrien/Repos/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators/CMakePresets.json"
+        "/test_package/build/gcc-12.2-thumbv7-20-debug/generators/CMakePresets.json"
     ]
 }

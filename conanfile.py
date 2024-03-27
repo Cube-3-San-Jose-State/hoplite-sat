@@ -30,7 +30,7 @@ class telemetry_recorder_conan(ConanFile):
     homepage = "https://github.com/libhal/sat-core"
     description = ("A collection of drivers for the sat-core")
     topics = ("sat-core", "libhal", "driver")
-    settings = "compiler", "build_type", "os", "arch"
+    settings = "compiler", "build_type", "os", "arch", 
     exports_sources = ("include/*", "tests/*", "LICENSE", "CMakeLists.txt",
                        "src/*")
     generators = "CMakeToolchain", "CMakeDeps"
