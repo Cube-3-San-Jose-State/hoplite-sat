@@ -16,9 +16,9 @@
 
 namespace hal::sat_core {
 
-result<sat_core> sat_core::create(hal::serial& p_serial)
+result<sat_core> sat_core::create(hal::serial& pi_serial)
 {
-  sat_core new_sat_core(p_serial);
+  sat_core new_sat_core(pi_serial);
   return new_sat_core;
 }
 
@@ -35,8 +35,3 @@ hal::status sat_core::transmit_rpi(std::string_view message)
 }
 
 }  // namespace hal::sat_core
-
-
-
-
-
