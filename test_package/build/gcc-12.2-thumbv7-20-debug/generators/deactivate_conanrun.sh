@@ -1,1 +1,1 @@
-. "C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\build\gcc-12.2-thumbv7-20-debug\generators\deactivate_conanrunenv-debug-thumbv7.sh"
+. "C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\build\gcc-12.2-thumbv7-20-debug\generators\deactivate_conanrunenv-debug-thumbv7.sh"

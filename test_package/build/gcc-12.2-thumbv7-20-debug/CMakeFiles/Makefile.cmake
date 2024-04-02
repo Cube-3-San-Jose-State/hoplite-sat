@@ -76,7 +76,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/daphn/.conan2/p/cmakefbe68aefa534a/p/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "C:/Users/daphn/.conan2/p/cmakefbe68aefa534a/p/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake"
   "C:/Users/daphn/.conan2/p/cmakefbe68aefa534a/p/share/cmake-3.27/Modules/Platform/Generic.cmake"
-  "C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/CMakeLists.txt"
+  "C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/CMakeLists.txt"
   "CMakeFiles/3.27.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.1/CMakeSystem.cmake"
   "generators/boost-leaf-Target-debug.cmake"

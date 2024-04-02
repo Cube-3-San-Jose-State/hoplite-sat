@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Windows-10.0.22621")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.22631")
 set(CMAKE_HOST_SYSTEM_NAME "Windows")
-set(CMAKE_HOST_SYSTEM_VERSION "10.0.22621")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.22631")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake")
+include("C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators/conan_toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

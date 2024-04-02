@@ -1,6 +1,6 @@
 CMakeFiles/test_package.dir/main.cpp.obj: \
- C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\main.cpp \
- C:\Users\daphn\.conan2\p\b\sat-cb780a6fef1bc6\p\include/sat-core/sat-core.hpp \
+ C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\main.cpp \
+ C:\Users\daphn\.conan2\p\b\sat-cc271c1df99040\p\include/sat-core/sat-core.hpp \
  C:\Users\daphn\.conan2\p\libhaebe27e4f0d66f\p\include/libhal/functional.hpp \
  c:\users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\arm-none-eabi\include\c++\12.2.1\cstdint \
  c:\users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\arm-none-eabi\include\c++\12.2.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\c++config.h \

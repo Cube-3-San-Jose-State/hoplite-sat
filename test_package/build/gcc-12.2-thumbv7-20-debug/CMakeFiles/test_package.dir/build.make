@@ -52,10 +52,10 @@ RM = C:\Users\daphn\.conan2\p\cmakefbe68aefa534a\p\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package
+CMAKE_SOURCE_DIR = C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\build\gcc-12.2-thumbv7-20-debug
+CMAKE_BINARY_DIR = C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\build\gcc-12.2-thumbv7-20-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_package.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/test_package.dir/progress.make
 include CMakeFiles/test_package.dir/flags.make
 
 CMakeFiles/test_package.dir/main.cpp.obj: CMakeFiles/test_package.dir/flags.make
-CMakeFiles/test_package.dir/main.cpp.obj: C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/main.cpp
+CMakeFiles/test_package.dir/main.cpp.obj: C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/main.cpp
 CMakeFiles/test_package.dir/main.cpp.obj: CMakeFiles/test_package.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\build\gcc-12.2-thumbv7-20-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_package.dir/main.cpp.obj"
-	C:\Users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_package.dir/main.cpp.obj -MF CMakeFiles\test_package.dir\main.cpp.obj.d -o CMakeFiles\test_package.dir\main.cpp.obj -c C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\build\gcc-12.2-thumbv7-20-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_package.dir/main.cpp.obj"
+	C:\Users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_package.dir/main.cpp.obj -MF CMakeFiles\test_package.dir\main.cpp.obj.d -o CMakeFiles\test_package.dir\main.cpp.obj -c C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\main.cpp
 
 CMakeFiles/test_package.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_package.dir/main.cpp.i"
-	C:\Users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\main.cpp > CMakeFiles\test_package.dir\main.cpp.i
+	C:\Users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\main.cpp > CMakeFiles\test_package.dir\main.cpp.i
 
 CMakeFiles/test_package.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_package.dir/main.cpp.s"
-	C:\Users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\main.cpp -o CMakeFiles\test_package.dir\main.cpp.s
+	C:\Users\daphn\.conan2\p\b\arm-ga1169d8b67717\p\bin\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\main.cpp -o CMakeFiles\test_package.dir\main.cpp.s
 
 # Object files for target test_package
 test_package_OBJECTS = \
@@ -91,14 +91,14 @@ test_package_EXTERNAL_OBJECTS =
 
 test_package: CMakeFiles/test_package.dir/main.cpp.obj
 test_package: CMakeFiles/test_package.dir/build.make
-test_package: C:/Users/daphn/.conan2/p/b/sat-cb780a6fef1bc6/p/lib/libsat-core.a
+test_package: C:/Users/daphn/.conan2/p/b/sat-cc271c1df99040/p/lib/libsat-core.a
 test_package: C:/Users/daphn/.conan2/p/telem3ad2a98db9b0f/p/lib/libtelemetry-recorder.a
 test_package: C:/Users/daphn/.conan2/p/libhad21ac9408c04f/p/lib/liblibhal-icm.a
 test_package: C:/Users/daphn/.conan2/p/libhadc34950f59ccb/p/lib/liblibhal-neo.a
 test_package: C:/Users/daphn/.conan2/p/libha5dcc9d985f3ba/p/lib/liblibhal-mpl.a
 test_package: C:/Users/daphn/.conan2/p/libhac9a6203da3932/p/lib/liblibhal-util.a
 test_package: CMakeFiles/test_package.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\build\gcc-12.2-thumbv7-20-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_package"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\build\gcc-12.2-thumbv7-20-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_package"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_package.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/test_package.dir/clean:
 .PHONY : CMakeFiles/test_package.dir/clean
 
 CMakeFiles/test_package.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\build\gcc-12.2-thumbv7-20-debug C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\build\gcc-12.2-thumbv7-20-debug C:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\build\gcc-12.2-thumbv7-20-debug\CMakeFiles\test_package.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\build\gcc-12.2-thumbv7-20-debug C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\build\gcc-12.2-thumbv7-20-debug C:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\build\gcc-12.2-thumbv7-20-debug\CMakeFiles\test_package.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_package.dir/depend
 

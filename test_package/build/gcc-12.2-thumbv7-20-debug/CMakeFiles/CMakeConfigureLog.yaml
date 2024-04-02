@@ -8,7 +8,7 @@ events:
       - "CMakeLists.txt:16 (project)"
     message: |
       The target system is: Generic -  - ARM
-      The host system is: Windows - 10.0.22621 - AMD64
+      The host system is: Windows - 10.0.22631 - AMD64
   -
     kind: "message-v1"
     backtrace:
@@ -59,7 +59,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/3.27.1/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "try_compile-v1"
@@ -70,24 +70,24 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq"
-      binary: "C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq"
+      source: "C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234"
+      binary: "C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: "--specs=nano.specs --specs=nosys.specs --specs=picolibc.specs -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections"
-      CMAKE_MODULE_PATH: "C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/generators;C:/Users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/res"
+      CMAKE_MODULE_PATH: "C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/generators;C:/Users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/res"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq'
+        Change Dir: 'C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234'
         
-        Run Build Command(s): C:/Users/daphn/.conan2/p/cmakefbe68aefa534a/p/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8ecc8/fast
-        C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8ecc8.dir\\build.make CMakeFiles/cmTC_8ecc8.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq'
-        Building CXX object CMakeFiles/cmTC_8ecc8.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-g++.exe -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/daphn/.conan2/p/cmakefbe68aefa534a/p/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_af437/fast
+        C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_af437.dir\\build.make CMakeFiles/cmTC_af437.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234'
+        Building CXX object CMakeFiles/cmTC_af437.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-g++.exe -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -95,8 +95,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_8ecc8.dir\\'
-         c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_8ecc8.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o C:\\Users\\daphn\\AppData\\Local\\Temp\\cckIkbpO.s
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_af437.dir\\'
+         c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_af437.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o C:\\Users\\daphn\\AppData\\Local\\Temp\\cc2d7Uxe.s
         GNU C++20 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
         	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -123,18 +123,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4d2c90a3e8606aea6694b84ca09b7e5e
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_8ecc8.dir\\'
-         c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\daphn\\AppData\\Local\\Temp\\cckIkbpO.s
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_af437.dir\\'
+         c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\daphn\\AppData\\Local\\Temp\\cc2d7Uxe.s
         GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
         COMPILER_PATH=c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/;c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_8ecc8.a
-        C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -P CMakeFiles\\cmTC_8ecc8.dir\\cmake_clean_target.cmake
-        C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8ecc8.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_8ecc8.a CMakeFiles/cmTC_8ecc8.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-ranlib.exe libcmTC_8ecc8.a
-        mingw32-make[1]: Leaving directory 'C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq'
+        COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_af437.a
+        C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -P CMakeFiles\\cmTC_af437.dir\\cmake_clean_target.cmake
+        C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_af437.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_af437.a CMakeFiles/cmTC_af437.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-ranlib.exe libcmTC_af437.a
+        mingw32-make[1]: Leaving directory 'C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234'
         
       exitCode: 0
   -
@@ -172,13 +172,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq']
+        ignore line: [Change Dir: 'C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/daphn/.conan2/p/cmakefbe68aefa534a/p/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8ecc8/fast]
-        ignore line: [C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8ecc8.dir\\build.make CMakeFiles/cmTC_8ecc8.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq']
-        ignore line: [Building CXX object CMakeFiles/cmTC_8ecc8.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-g++.exe -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/daphn/.conan2/p/cmakefbe68aefa534a/p/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_af437/fast]
+        ignore line: [C:/ProgramData/mingw64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_af437.dir\\build.make CMakeFiles/cmTC_af437.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234']
+        ignore line: [Building CXX object CMakeFiles/cmTC_af437.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-g++.exe -D_GLIBCXX_USE_CXX11_ABI=0  -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections  -std=c++20   -v -o CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -186,8 +186,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_8ecc8.dir\\']
-        ignore line: [ c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_8ecc8.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o C:\\Users\\daphn\\AppData\\Local\\Temp\\cckIkbpO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4' '-mfpu=auto' '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_af437.dir\\']
+        ignore line: [ c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus.exe -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\\users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\../arm-none-eabi -D__USES_INITFINI__ -D _GLIBCXX_USE_CXX11_ABI=0 C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_af437.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -mthumb -mlibarch=armv7e-m+fp -march=armv7e-m+fp -std=c++20 -version -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -o C:\\Users\\daphn\\AppData\\Local\\Temp\\cc2d7Uxe.s]
         ignore line: [GNU C++20 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -214,8 +214,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4d2c90a3e8606aea6694b84ca09b7e5e]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_8ecc8.dir\\']
-        ignore line: [ c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\daphn\\AppData\\Local\\Temp\\cckIkbpO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_af437.dir\\']
+        ignore line: [ c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -mfpu=fpv4-sp-d16 -march=armv7e-m+fp -mfloat-abi=hard -meabi=5 -o CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\daphn\\AppData\\Local\\Temp\\cc2d7Uxe.s]
         ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
         ignore line: [COMPILER_PATH=c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/arm-none-eabi/12.2.1/]
         ignore line: [c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../libexec/gcc/]
@@ -227,13 +227,13 @@ events:
         ignore line: [c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/]
         ignore line: [c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_8ecc8.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_8ecc8.a]
-        ignore line: [C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -P CMakeFiles\\cmTC_8ecc8.dir\\cmake_clean_target.cmake]
-        ignore line: [C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8ecc8.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_8ecc8.a CMakeFiles/cmTC_8ecc8.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-ranlib.exe libcmTC_8ecc8.a]
-        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/daphn/OneDrive/Documents/Cube3/hoplite-sat/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-e3wbuq']
+        ignore line: [COLLECT_GCC_OPTIONS='-D' '_GLIBCXX_USE_CXX11_ABI=0' '-mfloat-abi=hard' '-mcpu=cortex-m4'  '-fno-exceptions' '-fno-rtti' '-mthumb' '-ffunction-sections' '-fdata-sections' '-std=c++20' '-v' '-o' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp' '-march=armv7e-m+fp' '-dumpdir' 'CMakeFiles\\cmTC_af437.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_af437.a]
+        ignore line: [C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -P CMakeFiles\\cmTC_af437.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\Users\\daphn\\.conan2\\p\\cmakefbe68aefa534a\\p\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_af437.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_af437.a CMakeFiles/cmTC_af437.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\daphn\\.conan2\\p\\b\\arm-ga1169d8b67717\\p\\bin\\bin\\arm-none-eabi-ranlib.exe libcmTC_af437.a]
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/daphn/OneDrive/Documents/Cube3/sat-core/test_package/build/gcc-12.2-thumbv7-20-debug/CMakeFiles/CMakeScratch/TryCompile-nem234']
         ignore line: []
         ignore line: []
         implicit libs: []

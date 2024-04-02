@@ -4,7 +4,7 @@
 # compile CXX with C:/Users/daphn/.conan2/p/b/arm-ga1169d8b67717/p/bin/bin/arm-none-eabi-g++.exe
 CXX_DEFINES = -DBOOST_LEAF_EMBEDDED -DBOOST_LEAF_NO_THREADS -D_GLIBCXX_USE_CXX11_ABI=0
 
-CXX_INCLUDES = -IC:\Users\daphn\OneDrive\Documents\Cube3\hoplite-sat\test_package\. -isystem C:\Users\daphn\.conan2\p\b\sat-cb780a6fef1bc6\p\include -isystem C:\Users\daphn\.conan2\p\telem3ad2a98db9b0f\p\include -isystem C:\Users\daphn\.conan2\p\libhad21ac9408c04f\p\include -isystem C:\Users\daphn\.conan2\p\ring-9f549177d28e3\p\include -isystem C:\Users\daphn\.conan2\p\libhac9a6203da3932\p\include -isystem C:\Users\daphn\.conan2\p\libhaebe27e4f0d66f\p\include -isystem C:\Users\daphn\.conan2\p\tl-fu31454aa876889\p\include -isystem C:\Users\daphn\.conan2\p\boost0919ce5474dfb\p\include -isystem C:\Users\daphn\.conan2\p\libhadc34950f59ccb\p\include -isystem C:\Users\daphn\.conan2\p\libha5dcc9d985f3ba\p\include
+CXX_INCLUDES = -IC:\Users\daphn\OneDrive\Documents\Cube3\sat-core\test_package\. -isystem C:\Users\daphn\.conan2\p\b\sat-cc271c1df99040\p\include -isystem C:\Users\daphn\.conan2\p\telem3ad2a98db9b0f\p\include -isystem C:\Users\daphn\.conan2\p\libhad21ac9408c04f\p\include -isystem C:\Users\daphn\.conan2\p\ring-9f549177d28e3\p\include -isystem C:\Users\daphn\.conan2\p\libhac9a6203da3932\p\include -isystem C:\Users\daphn\.conan2\p\libhaebe27e4f0d66f\p\include -isystem C:\Users\daphn\.conan2\p\tl-fu31454aa876889\p\include -isystem C:\Users\daphn\.conan2\p\boost0919ce5474dfb\p\include -isystem C:\Users\daphn\.conan2\p\libhadc34950f59ccb\p\include -isystem C:\Users\daphn\.conan2\p\libha5dcc9d985f3ba\p\include
 
 CXX_FLAGS = -mfloat-abi=hard -mcpu=cortex-m4 -mfpu=auto -fno-exceptions -fno-rtti -mthumb -ffunction-sections -fdata-sections -g -std=c++20
 
